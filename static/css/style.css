@@ -6,7 +6,22 @@
  * Made By MaterializeCSS.com
  */
 
- .to_predict{
-   text-align: center;
- }
 
+ 
+ .output-container1
+{
+	height : 50px;
+	width : 100%;
+	display : flex;
+	flex-direction : column;
+	align-items : center;
+	justify-content : center;
+
+	
+}
+
+.output1
+{
+	font-size : 40px;
+	color : grey;
+}
