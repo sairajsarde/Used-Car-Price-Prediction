@@ -20,7 +20,7 @@ def predict():
     print(final)
     prediction=model.predict(final)
     output=round(prediction[0], 2)
-    return render_template('index.html',pred='{}'.format(output))
+    return render_template('index.html',pred='The price of car is {} lakhs.'.format(output))
      
 
 
